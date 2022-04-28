@@ -2,11 +2,14 @@
   "name": "crud",
   "version": "1.0.0",
   "description": "crud process with nodejs",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "author": "ketadev",
+  "author": {
+    "name": "KetaDev",
+    "email": "preyedan_5@yahoo.com"
+  },
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.0",
